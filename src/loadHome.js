@@ -1,4 +1,4 @@
-export const generateContent = () => {
+export const generateHome = () => {
     const content = document.getElementById("content")
 
     const title = document.createElement("h1")
@@ -21,7 +21,7 @@ export const generateContent = () => {
     imgBlock.appendChild(imgDetail)
 
     const description = document.createElement("h2")
-    description.textContent = "We are a restaurant of many people and cook many things."
+    description.textContent = "We are a restaurant of many people and we cook many things."
 
     intro.appendChild(imgBlock)
     intro.appendChild(description)
