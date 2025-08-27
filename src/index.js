@@ -1,3 +1,4 @@
 import "./styles.css"
+import { generateContent } from "./load"
 
-console.log("test")
+generateContent()
