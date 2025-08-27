@@ -11,11 +11,11 @@ export const generateHome = () => {
     imgBlock.className = "img-block"
 
     const img = document.createElement("img")
-    img.setAttribute("src", "https://images.immediate.co.uk/production/volatile/sites/30/2021/08/One-pot-spiced-roast-chicken-05079e9.jpg")
-    img.setAttribute("height", "300")
+    img.setAttribute("src", "https://lh3.googleusercontent.com/proxy/CiDIraP90ZaQGaGLrpOZg6P5S1ffczEz9vBy24m6yfhvB7OffSpnL-mbCHqu8eI6T4HivcxzgxMy-0AMMjQ3FfryJDGcEca8yZQ")
+    img.setAttribute("height", "280")
 
     const imgDetail = document.createElement("p")
-    imgDetail.textContent = "Whole chicken stew"
+    imgDetail.textContent = "Our beautiful place"
 
     imgBlock.appendChild(img)
     imgBlock.appendChild(imgDetail)

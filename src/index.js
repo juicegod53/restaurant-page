@@ -18,4 +18,5 @@ document.getElementById("menu").addEventListener("click", () => {
 
 document.getElementById("about").addEventListener("click", () => {
     content.innerHTML = ""
+    generateAbout()
 })
